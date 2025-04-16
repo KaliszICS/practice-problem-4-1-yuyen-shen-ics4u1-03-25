@@ -8,11 +8,23 @@ public class Rectangle {
 		this.width = width;
 	}
 
+	public double getLength(){
+		return this.length;
+	}
+
+	public double getWidth() {
+		return this.width;
+	}
+
 	public double area() {
 		return (this.length)*(this.width);
 	}
 
 	public double perimeter() {
-		return ((this.length)+(this.width))*2;
+		if (this.length == 0 || this.width == 0) {
+			return 0.0;
+		} else {
+			return ((this.length)+(this.width))*2;
+		}
 	}
 }
