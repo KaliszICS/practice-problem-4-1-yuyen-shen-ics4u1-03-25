@@ -1,6 +1,6 @@
-class Triangle { //notice that it starts with a capital letter
+public class Triangle { //notice that it starts with a capital letter
 	
-	//Instance variables
+	//Instance variables - attributes
 	private double side1;
 	private double side2;
 	private double side3;
@@ -8,10 +8,10 @@ class Triangle { //notice that it starts with a capital letter
 	private double angle2;
 	private double angle3;
 
-	//Constructor
-	public Triangle(double s1, double s2, double s3, double a1, double a2, double a3) {
-		this.side1 = s1;
-		this.side2 = s2;
+	//Constructor - runs when the object is created
+	public Triangle(double side1, double s2, double s3, double a1, double a2, double a3) {
+		this.side1 = side1;
+		side2 = s2;
 		this.side3 = s3;
 		this.angle1 = a1;
 		this.angle2 = a2;
